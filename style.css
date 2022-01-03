@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+.out, .broke {
+    text-align: center;
+    color: rgba(126, 41, 206, 0.459);
+    font-family: 'Playfair Display', serif;
+}
+
+.alone {
+    text-align: center;
+    color: rgb(16, 27, 190);
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+
+.ml2 {
+    font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.7em;
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+  @media(max-width: 700px) {
+    .ml2, .ml7, .alone {
+        font-size: 2em;
+    }
+  }
